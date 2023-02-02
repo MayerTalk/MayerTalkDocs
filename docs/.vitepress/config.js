@@ -35,7 +35,7 @@ export default defineConfig({
                 text: 'v0.1.2',
                 items: [
                     {text:'更新日志',link:'/about/change_log'},
-                    {text:'更新计划',link:'https://github.com/orgs/Arkfans/projects/2'}
+                    {text:'开发计划',link:'https://github.com/orgs/Arkfans/projects/2'}
                 ]
             }
         ]
