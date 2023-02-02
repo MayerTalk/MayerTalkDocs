@@ -5,14 +5,19 @@
     const video = ref(null);
 
     onMounted(() => {
-        const obs = new IntersectionObserver((entries, observer) => {
-            if (entries[0].isIntersecting) {
-                video.value.src = '/docs' + video.value.dataset.src;
-                video.value.load();
-                obs.unobserve(entries[0].target)
-            }
-        });
-        obs.observe(video.value)
+        try {
+            const obs = new IntersectionObserver((entries, observer) => {
+                if (entries[0].isIntersecting) {
+                    video.value.src = '/docs' + video.value.dataset.src;
+                    video.value.load();
+                    obs.unobserve(entries[0].target)
+                }
+            });
+            obs.observe(video.value)
+        } catch (e) {
+            video.value.src = '/docs' + video.value.dataset.src;
+            video.value.load();
+        }
     })
 </script>
 
