@@ -1,0 +1,24 @@
+:root {
+    scroll-behavior: smooth;
+    --vp-font-family-base: 'Inter var experimental', 'Inter var', -apple-system,
+    BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell,
+    'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+    --vp-c-brand: rgb(174, 160, 151);
+    --vp-c-brand-light: rgb(205, 194, 185);
+    --vp-c-brand-lighter: rgb(205, 194, 185);
+    --vp-c-brand-darker: rgb(157, 136, 125);
+    --vp-c-brand-dark: rgb(157, 136, 125);
+}
+
+.vp-doc table {
+    font-size: 14px;
+}
+
+.vp-doc th, .vp-doc td {
+    padding: 5px 10px;
+}
+
+
+img, video {
+    border-radius: 4px;
+}
