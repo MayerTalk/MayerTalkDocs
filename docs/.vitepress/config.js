@@ -34,10 +34,11 @@ export default defineConfig({
             {
                 text: 'v0.1.2',
                 items: [
-                    {text:'更新日志',link:'/about/change_log'},
-                    {text:'开发计划',link:'https://github.com/orgs/Arkfans/projects/2'}
+                    {text: '更新日志', link: '/about/change_log'},
+                    {text: '开发计划', link: 'https://github.com/orgs/Arkfans/projects/2'}
                 ]
-            }
+            },
+            {text: '交流群', link: 'https://jq.qq.com/?_wv=1027&k=ImatbCzG'},
         ]
     },
     lastUpdated: true
