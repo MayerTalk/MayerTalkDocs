@@ -27,7 +27,7 @@ MayerTalk是一款《明日方舟》对话编辑器，以「叙拉古人」活�
  
  <VideoGif src="/img/guide/select_char.webm"/>
  
- 值得一提的是，除了中文，也支持用其他方式搜索  
+ 除了中文，也支持用其他方式搜索  
  (不区分大小写)
  
  - 拼音 - meier
@@ -35,6 +35,12 @@ MayerTalk是一款《明日方舟》对话编辑器，以「叙拉古人」活�
  - 英文 - mayer
  - 日文 - メイヤー
  - Code - RL05
+ 
+ :::tip 别名搜索
+ 有的时候，别名更容易让人记忆  
+ MayerTalk支持别名搜索，[查看别名库](https://github.com/Arkfans/ArknightsAlias/blob/main/table.md)  
+ 如果没有你想要的别名，可以[点此提交](https://alias.arkfans.top/docs/alias.html)
+ :::
  
  ---
  
