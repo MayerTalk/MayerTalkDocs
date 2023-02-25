@@ -6,6 +6,13 @@ title: 特色功能
  
  如果你有想要的功能，欢迎加入[交流群](https://jq.qq.com/?_wv=1027&k=ImatbCzG)反馈
 
+ ## 存档
+ 
+ 适合多种场景的存档
+ 
+  <VideoGif src="/img/feature/savefile.webm"/>
+  
+
  ## @提示
  
  快捷@角色
