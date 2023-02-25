@@ -3,6 +3,12 @@ title: 更新日志
 ---
 
  # 更新日志
+
+ ## v0.1.4
+ 
+ ### 新增
+ 
+ - 存档 [#16](https://github.com/Arkfans/MayerTalk/pull/16)
  
  ## v0.1.3
  
