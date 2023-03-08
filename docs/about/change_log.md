@@ -30,22 +30,22 @@ title: 更新日志
 
 ### 优化
 
--
-Ctrl+num快捷键不再检查是否正在输入 ([ccb4b34](https://github.com/Arkfans/MayerTalk/commit/ccb4b34c9d0285c285a8e20acbe522297db633a3))
+- Ctrl+num快捷键不再检查是否正在输入
+  ([ccb4b34](https://github.com/Arkfans/MayerTalk/commit/ccb4b34c9d0285c285a8e20acbe522297db633a3))
 
 ## v0.1.1
 
 ### 新增
 
--
-拼音，拼音首字母，多语种搜索 ([6811c40](https://github.com/Arkfans/MayerTalk/commit/bc7639cdfe4dea48a1bf64cb1e4bd3c306100354))
+- 拼音，拼音首字母，多语种搜索
+  ([6811c40](https://github.com/Arkfans/MayerTalk/commit/bc7639cdfe4dea48a1bf64cb1e4bd3c306100354))
 
 ### 优化
 
--
-角色搜索结果按拼音首字母排序 ([baa5d28](https://github.com/Arkfans/MayerTalk/commit/baa5d28326204812aae3b8482c5bd7fc4667a29b))
--
-取消图片大小4mb的限制 ([8044678](https://github.com/Arkfans/MayerTalk/commit/8044678aa11bb9ded146a92b403adcd073442cde))
+- 角色搜索结果按拼音首字母排序
+  ([baa5d28](https://github.com/Arkfans/MayerTalk/commit/baa5d28326204812aae3b8482c5bd7fc4667a29b))
+- 取消图片大小4mb的限制
+  ([8044678](https://github.com/Arkfans/MayerTalk/commit/8044678aa11bb9ded146a92b403adcd073442cde))
 
 ## v0.1.0
 
@@ -64,8 +64,8 @@ Ctrl+num快捷键不再检查是否正在输入 ([ccb4b34](https://github.com/Ar
 
 ### 优化
 
--
-角色栏由横向滚动改为纵向 ([18169b7](https://github.com/Arkfans/MayerTalk/commit/18169b7911943d36f6097d7fc69a6614d28e20fe))
+- 角色栏由横向滚动改为纵向
+  ([18169b7](https://github.com/Arkfans/MayerTalk/commit/18169b7911943d36f6097d7fc69a6614d28e20fe))
 
 ## v0.0.6
 
@@ -90,8 +90,8 @@ Ctrl+num快捷键不再检查是否正在输入 ([ccb4b34](https://github.com/Ar
 ### 新增
 
 - 指南 ([00c2c37](https://github.com/Arkfans/MayerTalk/commit/00c2c37b1671bea16791e59a4e9b63f6ae8bb74d))
--
-上传头像会自动剪裁为正方形 ([0752f03](https://github.com/Arkfans/MayerTalk/commit/0752f032aac8e8bbc213876932380a3e482da552))
+- 上传头像会自动剪裁为正方形
+  ([0752f03](https://github.com/Arkfans/MayerTalk/commit/0752f032aac8e8bbc213876932380a3e482da552))
 - 输入框动态tip ([d841d90](https://github.com/Arkfans/MayerTalk/commit/d841d90dff95f267f8a29bd0362980aaf218e013))
 
 ### 修复
@@ -100,8 +100,8 @@ Ctrl+num快捷键不再检查是否正在输入 ([ccb4b34](https://github.com/Ar
 
 ### 优化
 
--
-选中角色的提示更明显了 ([a08c70b](https://github.com/Arkfans/MayerTalk/commit/a08c70b0cedce7193ae5d9786052c52cb618d33d))
+- 选中角色的提示更明显了
+  ([a08c70b](https://github.com/Arkfans/MayerTalk/commit/a08c70b0cedce7193ae5d9786052c52cb618d33d))
 
 ## v0.0.3
 
