@@ -4,25 +4,25 @@ title: 更新日志
 
 # 更新日志
 
-## v0.1.5
+## 0.1.5
 
 ### 新增
 
 - 长截图自动剪裁 [#23](https://github.com/Arkfans/MayerTalk/pull/23)
 
-## v0.1.4
+## 0.1.4
 
 ### 新增
 
 - 存档 [#16](https://github.com/Arkfans/MayerTalk/pull/16)
 
-## v0.1.3
+## 0.1.3
 
 ### 新增
 
 - 别名搜索 [#10](https://github.com/Arkfans/MayerTalk/pull/10)
 
-## v0.1.2
+## 0.1.2
 
 ### 新增
 
@@ -33,7 +33,7 @@ title: 更新日志
 - Ctrl+num快捷键不再检查是否正在输入
   ([ccb4b34](https://github.com/Arkfans/MayerTalk/commit/ccb4b34c9d0285c285a8e20acbe522297db633a3))
 
-## v0.1.1
+## 0.1.1
 
 ### 新增
 
@@ -47,7 +47,7 @@ title: 更新日志
 - 取消图片大小4mb的限制
   ([8044678](https://github.com/Arkfans/MayerTalk/commit/8044678aa11bb9ded146a92b403adcd073442cde))
 
-## v0.1.0
+## 0.1.0
 
 ### 新增
 
@@ -67,7 +67,7 @@ title: 更新日志
 - 角色栏由横向滚动改为纵向
   ([18169b7](https://github.com/Arkfans/MayerTalk/commit/18169b7911943d36f6097d7fc69a6614d28e20fe))
 
-## v0.0.6
+## 0.0.6
 
 ### 新增
 
@@ -76,7 +76,7 @@ title: 更新日志
 - 支持插入图片 ([a470a6c](https://github.com/Arkfans/MayerTalk/commit/a470a6ca5fa763ed26e8d6d820adb733f95b4861))
 - 支持插入选项 ([adf516e](https://github.com/Arkfans/MayerTalk/commit/adf516e97834937747b516980d17169477e79859))
 
-## v0.0.5
+## 0.0.5
 
 ### 新增
 
@@ -85,7 +85,7 @@ title: 更新日志
 - 新增渲染设置 ([303c084](https://github.com/Arkfans/MayerTalk/commit/303c084aefbb9137d8214a735a51b735e6993daa))
 - 支持撤销/重做 ([8fc3639](https://github.com/Arkfans/MayerTalk/commit/8fc3639f2abfbbb159b82643e2fe21a5d103b445))
 
-## v0.0.4
+## 0.0.4
 
 ### 新增
 
@@ -103,7 +103,7 @@ title: 更新日志
 - 选中角色的提示更明显了
   ([a08c70b](https://github.com/Arkfans/MayerTalk/commit/a08c70b0cedce7193ae5d9786052c52cb618d33d))
 
-## v0.0.3
+## 0.0.3
 
 ### 新增
 
@@ -111,7 +111,7 @@ title: 更新日志
 - 一键清空 ([5f88fff](https://github.com/Arkfans/MayerTalk/commit/5f88fff824ff07f27c744f554843bb6cab679f81))
 - 导入导出 ([5f88fff](https://github.com/Arkfans/MayerTalk/commit/5f88fff824ff07f27c744f554843bb6cab679f81))
 
-## v0.0.2
+## 0.0.2
 
 将代码托管至Github [Arkfans/MayerTalk](https://github.com/Arkfans/MayerTalk)
 
@@ -119,7 +119,7 @@ title: 更新日志
 
 - 图片对话
 
-## v0.0.1
+## 0.0.1
 
 ### 新增
 
