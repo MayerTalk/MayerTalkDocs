@@ -4,6 +4,18 @@ title: 更新日志
 
 # 更新日志
 
+## 0.1.6
+
+### 新增
+
+- 转跳 快捷键 ctrl + g [#34](https://github.com/Arkfans/MayerTalk/pull/34)
+- ctrl + e 启用编辑角色 [#34](https://github.com/Arkfans/MayerTalk/pull/34)
+- ctrl + 点击 删除对话 [#34](https://github.com/Arkfans/MayerTalk/pull/34)
+
+### 改动
+
+- 移动 导入/导出/存档 至设置 [#34](https://github.com/Arkfans/MayerTalk/pull/34)
+
 ## 0.1.5
 
 ### 新增

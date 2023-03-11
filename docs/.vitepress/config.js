@@ -32,7 +32,7 @@ export default defineConfig({
             },
             {text: '编辑器', link: 'https://www.mayertalk.top/'},
             {
-                text: '0.1.5',
+                text: '0.1.6',
                 items: [
                     {text: '更新日志', link: '/about/change_log'},
                     {text: '开发计划', link: 'https://github.com/orgs/Arkfans/projects/2'}
