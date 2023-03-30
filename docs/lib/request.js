@@ -3,12 +3,12 @@ import axios from 'axios'
 axios.defaults.withCredentials = false
 
 export default class Requests {
-    constructor(config) {
+    constructor (config) {
         this.host = config.host
         this.cancelTokens = []
     }
 
-    httpRequests(method, options) {
+    httpRequests (method, options) {
         const url = options.url
         const data = options.data || {}
         const success = options.success
@@ -29,7 +29,7 @@ export default class Requests {
             method,
             headers,
             cancelToken: new axios.CancelToken(cancel => {
-                this.cancelTokens.push({cancel})
+                this.cancelTokens.push({ cancel })
             }),
             [params]: payload
         }
@@ -56,11 +56,11 @@ export default class Requests {
             )
     }
 
-    get(options) {
+    get (options) {
         this.httpRequests('get', options)
     }
 
-    post(options) {
+    post (options) {
         this.httpRequests('post', options)
     }
 }

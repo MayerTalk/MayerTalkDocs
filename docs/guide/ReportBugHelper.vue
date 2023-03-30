@@ -1,53 +1,53 @@
 <script setup>
-import {nextTick} from 'vue';
-import Requests from '@/lib/request';
+import { nextTick } from 'vue'
+import Requests from '@/lib/request'
 
 const emit = defineEmits(['upload'])
 
 const request = new Requests({
-  host: 'https://www.mayertalk.top/'
+    host: 'https://www.mayertalk.top/'
 })
 
-function getItem(key) {
-  return JSON.parse(localStorage.getItem(key))
+function getItem (key) {
+    return JSON.parse(localStorage.getItem(key))
 }
 
-function getData() {
-  return JSON.stringify({
-    config: getItem('data.config'),
-    settings: getItem('data.settings'),
-    chats: getItem('data.chats'),
-    chars: getItem('data.chars'),
-    images: []
-  })
+function getData () {
+    return JSON.stringify({
+        config: getItem('data.config'),
+        settings: getItem('data.settings'),
+        chats: getItem('data.chats'),
+        chars: getItem('data.chars'),
+        images: []
+    })
 }
 
 const ErrorMessage = {
-  422: '数据文件过大',
-  400: '请求参数错误',
-  429: '每十分钟内仅能上传一次数据'
+    422: '数据文件过大',
+    400: '请求参数错误',
+    429: '每十分钟内仅能上传一次数据'
 }
 
-function upload() {
-  request.post({
-    url: 'upload_debug_data',
-    data: {
-      data: getData()
-    },
-    error(data) {
-      alert(ErrorMessage[data.response.status] || '请求失败')
-    },
-    success(data) {
-      if (data.data.code === 200) {
-        emit('upload')
-        nextTick(() => {
-          document.querySelector('#report-bar > div > pre > code > span:nth-child(1) > span').innerText = data.data.id
-        })
-      } else {
-        alert(data.data.message)
-      }
-    }
-  })
+function upload () {
+    request.post({
+        url: 'upload_debug_data',
+        data: {
+            data: getData()
+        },
+        error (data) {
+            alert(ErrorMessage[data.response.status] || '请求失败')
+        },
+        success (data) {
+            if (data.data.code === 200) {
+                emit('upload')
+                nextTick(() => {
+                    document.querySelector('#report-bar > div > pre > code > span:nth-child(1) > span').innerText = data.data.id
+                })
+            } else {
+                alert(data.data.message)
+            }
+        }
+    })
 }
 </script>
 

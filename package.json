@@ -11,6 +11,9 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@vue/eslint-config-standard": "^8.0.1",
+    "eslint": "^8.37.0",
+    "eslint-plugin-vue": "^9.10.0",
     "vitepress": "^1.0.0-alpha.60",
     "vue": "^3.2.47"
   },
