@@ -17,7 +17,7 @@ function getData() {
     config: getItem('data.config'),
     settings: getItem('data.settings'),
     chats: getItem('data.chats'),
-    chars: getItem('data.chats'),
+    chars: getItem('data.chars'),
     images: []
   })
 }
