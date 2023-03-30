@@ -1,4 +1,5 @@
 import {defineConfig} from 'vitepress'
+import {fileURLToPath, URL} from 'node:url'
 
 export default defineConfig({
     lang: 'zh-CN',
@@ -22,6 +23,12 @@ export default defineConfig({
                         {text: '特色功能', link: '/guide/feature'},
                         {text: '快捷键', link: '/guide/hot_key'}
                     ]
+                },
+                {
+                    text: '其他',
+                    items: [
+                        {text: 'bug反馈', link: '/guide/report_bug'}
+                    ]
                 }
             ]
         },
@@ -42,5 +49,17 @@ export default defineConfig({
             {text: '交流群', link: 'https://jq.qq.com/?_wv=1027&k=ImatbCzG'},
         ]
     },
-    lastUpdated: true
+    lastUpdated: true,
+    vite: {
+        server: {
+            host: '0.0.0.0',
+            port: 5173
+        },
+        resolve: {
+            alias: {
+                '@':
+                    fileURLToPath(new URL('../', import.meta.url))
+            }
+        }
+    }
 })
