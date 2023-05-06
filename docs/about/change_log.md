@@ -4,6 +4,13 @@ title: 更新日志
 
 # 更新日志
 
+## 0.1.7
+
+### 优化
+
+- 编辑对话文本时，可以使用ctrl+enter结束编辑 [#56](https://github.com/Arkfans/MayerTalk/pull/56)
+- 电脑端现在会自动聚焦大部分输入框 [#56](https://github.com/Arkfans/MayerTalk/pull/56)
+
 ## 0.1.6
 
 ### 新增
