@@ -4,6 +4,21 @@ title: 更新日志
 
 # 更新日志
 
+## 0.1.8
+
+### 新增
+
+- 拖拽上传 [#66](https://github.com/Arkfans/MayerTalk/pull/66)
+
+### 优化
+
+- 入对话切换类型时，相同数据格式不清空输入 [#64](https://github.com/Arkfans/MayerTalk/pull/64)
+- 角色选择界面，相同角色头像并入二级菜单 [#61](https://github.com/Arkfans/MayerTalk/pull/61)
+
+### 修复
+
+- 无法插入“选项”对话 [#65](https://github.com/Arkfans/MayerTalk/pull/65)
+
 ## 0.1.7
 
 ### 优化
