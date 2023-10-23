@@ -4,6 +4,21 @@ title: 更新日志
 
 # 更新日志
 
+## 0.1.9
+
+### 新增
+
+- i18n (英文，日文，繁中) [#81](https://github.com/MayerTalk/MayerTalk/pull/81)
+
+## 优化
+
+- 优化角色数据缓存 [#85](https://github.com/MayerTalk/MayerTalk/pull/85)
+- 优化手机端输入连贯性 [#84](https://github.com/MayerTalk/MayerTalk/pull/84)
+
+## 修复
+
+- 支持函全宽拉丁（ＡＢＣ） [#85](https://github.com/MayerTalk/MayerTalk/pull/85)
+
 ## 0.1.8
 
 ### 新增
