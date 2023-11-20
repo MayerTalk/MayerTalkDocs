@@ -6,15 +6,17 @@ title: 更新日志
 
 ## 0.2.0
 
+### 新增
+
 - 一年的鏖战与守望 [initial commit](https://github.com/MayerTalk/MayerTalk/commit/ce61efaa73a1da54f9a6148e7b908607668f69c7)
 - 数据统计 [#129](https://github.com/MayerTalk/MayerTalk/pull/129)
 - 水印 [#129](https://github.com/MayerTalk/MayerTalk/pull/129)
 
-## 优化
+### 优化
 
 - 现在文件名可以自定义了(截图-标题) [#134](https://github.com/MayerTalk/MayerTalk/pull/134)
 
-## 修复
+### 修复
 
 - 自动裁分长度计算错误 [#130](https://github.com/MayerTalk/MayerTalk/pull/130)
 - 无法搜索角色英文名 [#131](https://github.com/MayerTalk/MayerTalk/pull/131)
