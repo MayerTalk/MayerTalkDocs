@@ -39,7 +39,7 @@ export default defineConfig({
             },
             {text: '编辑器', link: 'https://www.mayertalk.top/'},
             {
-                text: '0.2.0',
+                text: '0.2.1',
                 items: [
                     {text: '更新日志', link: '/about/change_log'},
                     {text: '开发指南', link: '/about/dev_guide'},

@@ -4,6 +4,22 @@ title: 更新日志
 
 # 更新日志
 
+## 0.2.1
+
+### 新增
+
+- 增加宽屏角色选择栏(可在设置中关闭) [#165](https://github.com/MayerTalk/MayerTalk/pull/165)
+
+### 优化
+
+- 截图的标题会在 切换存档/清空/完成截图 时清除 [#167](https://github.com/MayerTalk/MayerTalk/pull/167)
+- 侧边栏动效 [#161](https://github.com/MayerTalk/MayerTalk/pull/161)
+
+### 修复
+
+- 部分浏览器对话框显示不完全 [#161](https://github.com/MayerTalk/MayerTalk/pull/161/files) [#163](https://github.com/MayerTalk/MayerTalk/pull/163/files)
+- 统计数据错误 [#150](https://github.com/MayerTalk/MayerTalk/pull/150)
+
 ## 0.2.0
 
 ### 新增
