@@ -4,6 +4,21 @@ title: 更新日志
 
 # 更新日志
 
+## v0.2.2
+
+### 新增
+
+- 手动裁分 [#181](https://github.com/MayerTalk/MayerTalk/pull/181) [#182](https://github.com/MayerTalk/MayerTalk/pull/182)
+
+### 优化
+
+- 常驻角色栏可以快捷隐藏 [#177](https://github.com/MayerTalk/MayerTalk/pull/177)
+- 手机输入法适配优化 [#180](https://github.com/MayerTalk/MayerTalk/pull/180)
+
+### 修复
+
+- 拖拽上传显示错误 [#178](https://github.com/MayerTalk/MayerTalk/pull/178)
+
 ## 0.2.1
 
 ### 新增
