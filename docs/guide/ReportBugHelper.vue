@@ -1,12 +1,20 @@
 <script setup>
-import { nextTick } from 'vue'
+import { nextTick, onMounted } from 'vue'
 import Requests from '@/lib/request'
-import { clipboardCopy } from '@/lib/clipboard'
+
+let copy
+
+onMounted(() => {
+    import('@/lib/clipboard').then(module => {
+        console.log(module)
+        copy = module.clipboardCopy
+    })
+})
 
 const emit = defineEmits(['upload'])
 
 const request = new Requests({
-    host: 'http://127.0.0.1:36020/'
+    host: 'https://www.mayertalk.top/'
 })
 
 function getItem (key) {
@@ -41,7 +49,7 @@ function upload () {
         success (data) {
             if (data.data.code === 200) {
                 emit('upload')
-                clipboardCopy(data.data.id)
+                copy(data.data.id)
                 alert('已复制ID: ' + data.data.id)
                 nextTick(() => {
                     document.querySelector('#report-bar > div > pre > code > span:nth-child(1) > span').innerText = data.data.id
