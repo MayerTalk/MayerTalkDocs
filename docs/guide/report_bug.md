@@ -27,8 +27,6 @@ const showReportId = ref(false)
 
 <div v-if="showReportId" id="report-bar">
 
-上传成功，请复制下方ID
-
 ```text
 {{ recordId }}
 ```
