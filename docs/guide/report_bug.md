@@ -7,6 +7,7 @@ import { ref } from 'vue'
 import ReportBugHelper from './ReportBugHelper.vue'
 
 const showReportId = ref(false)
+const error = ref(false)
 </script>
 
 :::tip
@@ -22,19 +23,24 @@ const showReportId = ref(false)
 上传的数据仅用于debug，不会上传图片
 
 <ClientOnly>
-<ReportBugHelper @upload="showReportId=true"></ReportBugHelper>
+<ReportBugHelper @upload="showReportId=true" @error="error=true"></ReportBugHelper>
 </ClientOnly>
+
+<div v-if="showReportId && error">
+ID: {{ recordId }} 
+</div>
 
 <div v-if="showReportId" id="report-bar">
 
 ```text
 {{ recordId }}
 ```
+
 </div>
 
 ## 3.多次操作，查看bug是否稳定出现
 
- - 如是，请尽可能简洁地概括步骤，这对开发者了解bug有很大帮助。
+- 如是，请尽可能简洁地概括步骤，这对开发者了解bug有很大帮助。
 
 ## 4.截图或录制视频
 

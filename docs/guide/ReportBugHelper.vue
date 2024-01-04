@@ -6,12 +6,11 @@ let copy
 
 onMounted(() => {
     import('@/lib/clipboard').then(module => {
-        console.log(module)
         copy = module.clipboardCopy
     })
 })
 
-const emit = defineEmits(['upload'])
+const emit = defineEmits(['upload', 'error'])
 
 const request = new Requests({
     host: 'https://www.mayertalk.top/'
@@ -49,8 +48,13 @@ function upload () {
         success (data) {
             if (data.data.code === 200) {
                 emit('upload')
-                copy(data.data.id)
-                alert('已复制ID: ' + data.data.id)
+                copy(data.data.id, (res) => {
+                    if (res) {
+                        alert('已复制ID: ' + data.data.id)
+                    } else {
+                        emit('error')
+                    }
+                })
                 nextTick(() => {
                     document.querySelector('#report-bar > div > pre > code > span:nth-child(1) > span').innerText = data.data.id
                 })
